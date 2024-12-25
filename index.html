@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Internships</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("https://png.pngtree.com/background/20230617/original/pngtree-web-banner-3d-rendered-ui-for-seo-data-analytics-and-future-picture-image_3704909.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color:pink, white ,yellow,green, red;
+            margin-bottom: 20px;
+            
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 60px;
+            font-family: 'Cursive', sans-serif;
+            background: linear-gradient(45deg, WHITE, violet, purple, blue, green, pink, yellow, orange); /* More colorful gradient text */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+        }
+
+        .start-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            border-radius: 25px;
+            background-color: #6a11cb;
+            background-image: linear-gradient(315deg, #6a11cb 0%, white, #2575fc 74%);
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        }
+
+        .start-button:hover {
+            transform: scale(1.1); /* Slightly enlarge the button */
+            background-color: #2575fc, white; /* Change color on hover */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+
+        .box {
+            width: 250px;
+            height: auto;
+            flex: 1;
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+        }
+        
+
+        /* Hover effect for the internship boxes */
+        .box:hover {
+            transform: scale(1.1); /* Pop-out effect */
+            background-image: linear-gradient( violet, purple,SlateBlue, blue,  pink, yellow, orange, MediumSeaGreen); /* Multi-color gradient on hover */
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+        }
+
+        .company-logo {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        .center-button {
+            width: 150px;
+            height: 40px;
+            align-self: center;
+            border-radius: 20px;
+            background-color: #6a11cb;
+            background-image: linear-gradient(315deg, #6a11cb 0%,white, #2575fc 74%);
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        }
+
+        /* Hover effect for the button */
+        .center-button:hover {
+            transform: scale(1.1); /* Slightly enlarge the button */
+            background-color: #2575fc; /* Change color on hover */
+        }
+
+        .details p {
+            margin: 5px 0;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+        }
+
+        .symbol {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #ffffff;
+            text-align: center;
+        }
+
+        #internships-section {
+            display: none; /* Hide the second section initially */
+        }
+    </style>
+</head>
+<body>
+    <!-- First Interface -->
+    <header>
+        <h1><I>Data Science Internships</I></h1>
+        <a href="#internships-section" class="start-button" id="startButton">Let's Go</a>
+    </header>
+
+    <!-- Second Interface -->
+    <div id="internships-section">
+        <div class="container">
+            
+
+            <div class="box">
+                <div class="Internship" id="project2"><STRONG>Internship 1</STRONG></div>
+                <div class="box2">
+                    <img src="MINISTER.png" alt="Company Logo" class="company-logo">
+                    <div class="details">
+                        <p><span class="symbol">⏳</span> <strong>Course </strong> DATA SCIENCE</p>
+                        <p><span class="symbol">⏳</span> <strong>Duration:</strong> 6 months</p>
+                        
+                        <p><span class="symbol">💰</span> <strong>Stipend:</strong> ₹40,000</p>
+                        <p><span class="symbol">⭐</span> <strong>AVERAGE RATING:</strong> 4.3</p>
+                    </div>
+                </div>
+                <a href="https://internship.mea.gov.in/internship?trk=public_post_comment-text"  target="_blank">
+                    <button class="center-button">Enroll</button>
+                </a>
+            </div>
+
+            <div class="box">
+                <div class="Internship" id="project3"><STRONG>Internship 2</STRONG></div>
+                <div class="box3">
+                    <img src="image 3.png" alt = "Company Logo" class="company-logo">
+                    <div class="details">
+                        <p><span class="symbol">⏳</span> <strong>Course name:</strong> DATA SCIENCE</p>
+                        <p><span class="symbol">💰</span> <strong>Duration:</strong> 2-3 months </p>
+
+                        <p><span class="symbol">💰</span> <strong>Stipend:</strong> ₹10,000</p>
+                        <p><span class="symbol">⭐</span> <strong>AVERAGE RATING:</strong> 4.0</p>
+                    </div>
+                </div>
+                <a href="https://360digitmg.com/india/data-science-internship" 
+                target="_blank">
+                    <button class="center-button">Enroll</button>
+                </a>
+            </div>
+
+            <div class="box">
+                <div class="Internship" id="project4"><STRONG>Internship 3</STRONG></div>
+                <div class="box1">
+                    <!-- Company logo at the top -->
+                    <img src="image 4.png" alt="Company Logo" class="company-logo">
+                    <div class="details">
+                        <p><span class="symbol">⏳</span> <strong>Course name:</strong> DATA SCIENCE</p>
+                        <p><span class="symbol">💰</span> <strong>Duration:</strong> 5 months </p>
+                        <p><span class="symbol">💰</span> <strong>Course fee:</strong> ₹10,000 </p>
+                        
+                        <p><span class="symbol">⭐</span> <strong>AVERAGE RATING:</strong> 4.8</p>
+                    </div>
+                </div>
+                <!-- Link to the internship website -->
+                <a href="https://nptel.ac.in/internship" target="_blank">
+                    <button class="center-button">Enroll</button>
+                </a>
+            </div>
+
+            <div class="box">
+                <div class="Internship" id="project5"><STRONG>Internship 4</STRONG></div>
+                <div class="box4">
+                    <img src="image 5.png" alt = "Company Logo" class="company-logo">
+                    <div class="details">
+                        <p><span class="symbol">⏳</span> <strong>Course name:</strong> DATA SCIENCE</p>
+                        <p><span class="symbol">💰</span> <strong>Duration:</strong>  2 months </p>
+                        <p><span class="symbol">💰</span> <strong>Stiphened:</strong> ₹7,000 </p>
+                        
+                        <p><span class="symbol">⭐</span> <strong>AVERAGE RATING:</strong> 4.5</p>
+                    </div>
+                </div>
+                <a href="https://www.theglobalscholarship.org/internship/data-science-internship-by-nextgen-ai-solutions?source=main" target="_blank">
+                    <button class="center-button">Enroll</button>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer>
+
+
+        <p>&copy; 2024 Data Science Internships. All rights reserved.</p>
+        <p>     DEVELOPED BY B.HARIKA  ❤️  AND ITS TEAM ✨   </p>
+        <p>     Guided By DR. DHAWALASWAR RAO  💫  </p>
+
+    </footer>
+
+    <script>
+        document.getElementById("startButton").addEventListener("click", function() {
+            // Show the internships section when the button is clicked
+            document.getElementById("internships-section").style.display = "block";
+            
+            // Hide the start button
+            document.getElementById("startButton").style.display = "none";
+        });
+    </script>
+</body>
+</html>
